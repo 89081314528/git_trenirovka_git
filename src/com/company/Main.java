@@ -10,8 +10,12 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(sum(4949494, 49494));
+        System.out.println(raznost(9299292,92929));
     }
     public static int sum(int a, int b) {
         return a + b;
+    }
+    public static int raznost(int a, int b) {
+        return a - b;
     }
 }
