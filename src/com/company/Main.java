@@ -11,11 +11,15 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(sum(4949494, 49494));
         System.out.println(raznost(9299292,92929));
+        System.out.println(product(93993939,9399393));
     }
     public static int sum(int a, int b) {
         return a + b;
     }
     public static int raznost(int a, int b) {
         return a - b;
+    }
+    public static long product(int a, int b) {
+        return a * b;
     }
 }
